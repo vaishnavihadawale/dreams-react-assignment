@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dreams-react-assignment/static/css/main.1c6b6d34.css",
+    "main.js": "/dreams-react-assignment/static/js/main.22ab5e18.js",
+    "static/js/787.159cc081.chunk.js": "/dreams-react-assignment/static/js/787.159cc081.chunk.js",
+    "static/media/Card-image.jpg": "/dreams-react-assignment/static/media/Card-image.b60f508409c882129fba.jpg",
+    "static/media/DigitalMarketingImage.jpg": "/dreams-react-assignment/static/media/DigitalMarketingImage.645421ec691503e72dcd.jpg",
+    "static/media/SEOImage.jpg": "/dreams-react-assignment/static/media/SEOImage.5db133ce754a93cbb6db.jpg",
+    "static/media/EcommerceImage.jpg": "/dreams-react-assignment/static/media/EcommerceImage.fe1aa41db2c4dd513e3f.jpg",
+    "index.html": "/dreams-react-assignment/index.html",
+    "main.1c6b6d34.css.map": "/dreams-react-assignment/static/css/main.1c6b6d34.css.map",
+    "main.22ab5e18.js.map": "/dreams-react-assignment/static/js/main.22ab5e18.js.map",
+    "787.159cc081.chunk.js.map": "/dreams-react-assignment/static/js/787.159cc081.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c6b6d34.css",
+    "static/js/main.22ab5e18.js"
+  ]
+}
