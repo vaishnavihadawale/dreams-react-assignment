@@ -1,286 +1,289 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    
-    text-align: center !important;
-    color: rgb(0, 122, 204) !important;
+  text-align: center !important;
+  color: rgb(0, 122, 204) !important;
 }
 
 ul {
-    list-style: none;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px !important;
+}
+ol{
+    padding-left: 0px !important;
 }
 
 ul li {
-   margin: 10px;
-    display: inline-block;
-    padding-left: 0px !important;
-    color: rgb(5, 21, 71);
-    
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 10px;
+  display: inline-block;
+  padding-left: 0px !important;
+  color: rgb(5, 21, 71);
 }
 
 ol li {
-    list-style: none;
-    text-align: left;
-    color: rgb(5, 21, 71);
-    margin: 10px;
+  list-style: none;
+  text-align: left;
+  color: rgb(5, 21, 71);
+  margin: 10px;
 }
-#horizontalRow{
-    background-color:  white !important;
-    height: 2px;
-    border: none;
-    
+#horizontalRow {
+  background-color: white !important;
+  height: 2px;
+  border: none;
 }
 
 hr {
-    border-bottom:  1px solid black !important;
-    margin: 20px !important;
-
+  border-bottom: 1px solid black !important;
+  margin: 20px !important;
 }
 
 .listGroup li {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
 
-    margin:  10px auto;
-    padding: 10px;
+  margin: 10px auto;
+  padding: 10px;
 }
-.listGroup ol{
-    margin: 10px 95px;
+.listGroup ol {
+  margin: 10px 95px;
 }
 
 #cssToDiv {
-    margin-bottom: 20px ;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(100, 174, 203) !important;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(100, 174, 203) !important;
 }
 
-
 .styleToImage {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .cssToEnquireButton {
-    background-color: rgb(0, 51, 102);
-    border-radius: 5px;
-    border: none;
-    padding: 10px 15px;
-    color: white;
-    margin-top: 10px;
+  background-color: rgb(0, 51, 102);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  margin-top: 10px;
 }
 
 .cssToCard {
-    padding: 20px;
-    background-color: rgb(218, 228, 248);
-    border-radius: 25px;
-    text-align: left;
-    margin: 25px;
+  padding: 20px;
+  background-color: rgb(218, 228, 248);
+  border-radius: 25px;
+  text-align: left;
+  margin: 25px;
 }
 
 .cssToCard h3 {
-    margin: 10px 0px 25px;
-    font-weight: bold;
+  margin: 10px 0px 25px;
+  font-weight: bold;
 }
 
 h2 {
-    text-align: center !important;
-    color: rgb(0, 122, 204) !important;
-    text-decoration: underline;
-    margin-bottom: 10px !important;
+  text-align: center !important;
+  color: rgb(0, 122, 204) !important;
+  text-decoration: underline;
+  margin-bottom: 10px !important;
 }
 
 td {
-    font-size: 18px;
-    color: rgb(73, 71, 71);
-    font-weight: bold;
+  font-size: 18px;
+  color: rgb(73, 71, 71);
+  font-weight: bold;
 }
-.cssToTableData{
-    color: white;
-    text-align: left;
-    margin-left:5px; 
-    
+.cssToTableData {
+  color: white;
+  text-align: left;
+  margin-left: 5px;
 }
-.tableDiv{
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tableDiv {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cssToTableDataText{
-    color: white;
-    text-align: left;
-    padding-left: 25px;
+.cssToTableDataText {
+  color: white;
+  text-align: left;
+  padding-left: 25px;
 }
 .cssToSendButton {
-    width: 100px;
-    font-size: 20px;
-    color: white;
-    margin: 10px 100px;
-    background-color: rgb(0, 51, 102) !important;
-    border-radius: 5px;
-    padding: 5px 10px;
+  width: 100px;
+  font-size: 20px;
+  color: white;
+  margin: 10px 100px;
+  background-color: rgb(0, 51, 102) !important;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-input[type='text'] {
-    height: 40px;
-    width: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid rgb(182, 179, 179);
+input[type="text"] {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(182, 179, 179);
 }
 
-input[type='tel'] {
-    height: 40px;
-    width: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid rgb(182, 179, 179);
+input[type="tel"] {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(182, 179, 179);
 }
 
-input[type='email'] {
-    height: 40px;
-    width: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid rgb(182, 179, 179);
+input[type="email"] {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(182, 179, 179);
 }
 
 .input .cssToInput {
-    height: 80px;
+  height: 80px;
 }
-.cssToTableInfo{
-    width: 4%;
-}
-
-.cssToTableInfoCol{
-    width:1%;
-    text-align:center;
-}
-.cssToTableInfoNextCol{
-    
-    margin-left:5px ;
+.cssToTableInfo {
+  width: 4%;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    margin-bottom: 10px;
-    
+.cssToTableInfoCol {
+  width: 1%;
+  text-align: center;
+}
+.cssToTableInfoNextCol {
+  margin-left: 5px;
 }
 
-
-.cssToRow{
-    height: 50px;
+.cssToRow {
+  height: 50px;
 }
-#cssToWeb{
-    font-size: 20px;
-    color: rgb(0, 122, 204) !important;
+#cssToWeb {
+  font-size: 20px;
+  color: rgb(0, 122, 204) !important;
 }
-#cssToReference{
-    margin-bottom: 80px;
-    background-color: rgb(218, 228, 248);
-    padding-bottom: 10px;
+#cssToReference {
+  margin-bottom: 80px;
+  background-color: rgb(218, 228, 248);
+  padding-bottom: 10px;
 }
-#cssToReference p{
-   text-align: center; 
+#cssToReference p {
+  text-align: center;
 }
-#cssToAnchor{
-   color: rgb(0, 51, 102);
-   font-size: 20px;
-   font-weight: bold;
+#cssToAnchor {
+  color: rgb(0, 51, 102);
+  font-size: 20px;
+  font-weight: bold;
 }
-#card{
-   background-color:rgb (218, 228, 248);
-   margin: auto;
-   
+#card {
+  background-color: rgb (218, 228, 248);
+  margin: auto;
 }
-#row{
+#row {
+  padding: 0px !important;
+}
+.cssCol {
+  padding: 0px;
+}
+#cssToInfo {
+  background-color: rgb(0, 51, 102);
+  color: white;
+  text-align: center;
+}
+#cssToInfo ol li {
+  color: white;
+  font-weight: bold;
+}
+#cssToAddContact {
+  margin: 10px 120px;
+  height: 50px;
+  width: 35%;
+  background-color: white;
+  color: rgb(100, 174, 203);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.card-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 0px !important;
 }
-.cssCol{
-    padding: 0px;
+#cssToDiv {
+  padding: 20px;
+  text-align: center;
 }
-#cssToInfo{
-    background-color: rgb(0, 51, 102);
-    color: white;
+#cssToDivSecond {
+  padding: 20px;
 }
-#cssToInfo ol li{
-    color: white;
-    font-weight: bold;
+#cssToThirdDiv {
+  padding: 20px;
 }
-#cssToAddContact{
-    margin: 10px 120px;
-    height: 50px;
-    width: 35%;
-    background-color: white;
-    color:rgb(100, 174, 203) ;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-
+#cssToContainer {
+  padding: 0px !important;
 }
-#cssToDiv{
-    padding: 20px;
+#divImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 20px 10px;
 }
-#cssToDivSecond{
-    padding: 20px;
+.gpayNumber span {
+  margin: 3px;
 }
-#cssToThirdDiv{
-    padding: 20px;
+.gpayNumber {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(73, 71, 71);
+  font-size: 17px;
+  font-weight: bold;
 }
-#cssToContainer{
-    padding: 0px !important;
+.bankInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
 }
-#divImage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 20px 10px;
+.bankInfo p {
+  margin: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(73, 71, 71);
 }
-.gpayNumber span{
-    margin: 3px;
-}
-.gpayNumber{
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    color: rgb(73, 71, 71);
-    font-size: 17px;
-    font-weight: bold;
-}
-.bankInfo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2px;
-}
-.bankInfo p{
-    margin: 3px;
-    font-size: 15px;
-    font-weight: bold;
-    color:rgb(73, 71, 71) ;
-    
-}
-.cssToSpan{
-    width:35%;
-   
+.cssToSpan {
+  width: 35%;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  height: 10%;
+  padding: 15px 0px;
+  align-items: center;
+}
 
+.footer-dv{
+    padding: 0 1rem;
+}
